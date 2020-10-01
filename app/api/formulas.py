@@ -78,6 +78,10 @@ algos = {
         'help': 'Enhanced Vegetation Index is useful in areas where NDVI might saturate, by using blue wavelengths to correct soil signals.',
         'range': (-1, 1)
     },
+    'NDRE': {
+        'expr': '(N - Red_Edge) / (N + Red_Edge)',
+        'help': 'The Normalized Difference Red Edge is very similar to the more common NDVI. However, NDRE is more sensitive than NDVI for a certain period of crop maturation. NDRE is a better marker of plant conditions for middle and late season crops that have already accumulated a large amount of chlorophyll'
+    },
 
     # more?
 
